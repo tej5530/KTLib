@@ -1,0 +1,68 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.tej5530'
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    // for google login
+    implementation 'com.google.gms:google-services:3.2.1'
+    implementation 'com.google.android.gms:play-services-auth:15.0.1'
+
+    // for facebook login
+    implementation 'com.facebook.android:facebook-android-sdk:4.32.0'
+    implementation 'com.facebook.android:facebook-login:4.32.0'
+
+    // for location
+    implementation 'com.google.android.gms:play-services-location:15.0.1'
+
+    // for retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+
+    // for paypal
+    implementation 'com.paypal.sdk:paypal-android-sdk:2.14.2'
+
+    // for stripe payment
+//    implementation "com.stripe:stripe-java:5.35.1"
+    implementation 'com.stripe:stripe-android:6.1.2'
+    implementation "com.parse:parse-android:1.13.1"
+
+    // for pay tm
+    implementation 'com.paytm:pgplussdk:1.1.2'
+
+    // for sqlite db
+    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
+}
