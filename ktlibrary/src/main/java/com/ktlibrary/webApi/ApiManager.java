@@ -27,7 +27,9 @@ import retrofit2.http.Url;
 /**
  * Created by kd on 21/3/18.
  */
-@SuppressWarnings("unchecked")
+
+@SuppressWarnings("all")
+
 public class ApiManager {
 
     ApiSuccessInterface apiSuccessInterface = new ApiSuccessInterface() {
