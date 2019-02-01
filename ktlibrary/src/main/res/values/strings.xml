@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KT Library</string>
+
+
+    <!--Used for card validation-->
+    <string name="invalid_visa">Invalid Visa Card</string>
+    <string name="invalid_master">Invalid Master Card</string>
+    <string name="valid_cvv">InValid CVV</string>
+    <string name="enter_cvv">Enter CVV</string>
+</resources>
