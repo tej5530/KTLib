@@ -8,8 +8,8 @@ android {
     defaultConfig {
         minSdkVersion 19
         targetSdkVersion 27
-        versionCode 2
-        versionName "1.1"
+        versionCode 3
+        versionName "1.2"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -38,15 +38,15 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     // for google login
-    implementation 'com.google.gms:google-services:3.2.1'
-    implementation 'com.google.android.gms:play-services-auth:15.0.1'
+    implementation 'com.google.gms:google-services:4.2.0'
+    implementation 'com.google.android.gms:play-services-auth:16.0.1'
 
     // for facebook login
     implementation 'com.facebook.android:facebook-android-sdk:4.32.0'
     implementation 'com.facebook.android:facebook-login:4.32.0'
 
     // for location
-    implementation 'com.google.android.gms:play-services-location:15.0.1'
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
 
     // for retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.3.0'
