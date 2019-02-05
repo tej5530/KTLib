@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">KTLib</string>
+    <string name="runtime_permissions_txt">Allow All Permission</string>
 </resources>
