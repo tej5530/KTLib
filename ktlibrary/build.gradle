@@ -64,7 +64,7 @@ dependencies {
     implementation 'com.paytm:pgplussdk:1.1.2'
 
     // for sqlite db
-    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
+    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:2.0.1'
 
     // bottom sheet layout
     implementation 'com.flipboard:bottomsheet-core:1.5.3'
