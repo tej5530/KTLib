@@ -65,4 +65,11 @@ dependencies {
 
     // for sqlite db
     implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
+
+    // bottom sheet layout
+    implementation 'com.flipboard:bottomsheet-core:1.5.3'
+    implementation 'com.flipboard:bottomsheet-commons:1.5.3' // optional
+    // crop image
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.6.0'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
 }

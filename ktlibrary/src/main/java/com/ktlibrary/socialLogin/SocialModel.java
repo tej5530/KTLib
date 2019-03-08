@@ -1,8 +1,5 @@
 package com.ktlibrary.socialLogin;
 
-/**
- * Created by munir on 20/10/16.
- */
 
 public class SocialModel {
 

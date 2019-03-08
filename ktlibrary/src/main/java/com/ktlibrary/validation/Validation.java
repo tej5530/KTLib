@@ -7,10 +7,6 @@ import com.ktlibrary.R;
 import com.ktlibrary.snackbarHelper.SnackBarHandler;
 
 
-/**
- * Created by munir on 2/4/18.
- */
-
 public class Validation {
 
 

@@ -24,9 +24,7 @@ import retrofit2.http.GET;
 import retrofit2.http.POST;
 import retrofit2.http.Url;
 
-/**
- * Created by kd on 21/3/18.
- */
+
 
 @SuppressWarnings("all")
 

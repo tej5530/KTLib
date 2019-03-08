@@ -3,9 +3,6 @@ package com.ktlibrary.utils;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-/**
- * Created by munir on 15/3/18.
- */
 
 public class MySharedPreference {
 

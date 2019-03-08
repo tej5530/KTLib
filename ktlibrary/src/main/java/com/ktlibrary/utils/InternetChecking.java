@@ -4,10 +4,6 @@ import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-/**
- * Created by kd on 21/3/18.
- */
-
 public class InternetChecking {
 
     public static boolean isNetworkAvailable(Context context) {

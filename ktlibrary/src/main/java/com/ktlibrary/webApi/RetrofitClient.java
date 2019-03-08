@@ -3,9 +3,7 @@ package com.ktlibrary.webApi;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-/**
- * Created by kd on 21/3/18.
- */
+
 
 public class RetrofitClient {
 

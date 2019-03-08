@@ -11,9 +11,7 @@ import android.widget.TextView;
 
 import com.ktlibrary.R;
 
-/**
- * Created by kd on 20/3/18.
- */
+
 
 public class SnackBarHandler {
 

@@ -2,9 +2,7 @@ package com.ktlibrary.utils;
 
 import android.Manifest;
 
-/**
- * Created by KT on 29/01/19.
- */
+
 
 public class AppConfig {
 

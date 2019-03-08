@@ -8,11 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 
-import com.ktlibrary.R;
-
-/**
- * Created by kd on 19/3/18.
- */
 
 public class CustomDialog {
 
