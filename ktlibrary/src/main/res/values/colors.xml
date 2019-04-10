@@ -7,6 +7,6 @@
     <color name="colorWhite">#ffffff</color>
     <color name="colorRed">#FE2121</color>
     <color name="colorGreen">#49C24F</color>
-
+    <color name="colorDivider">#d8d8d6</color>
     <color name="colorWhiteOff">#c8ffffff</color>
 </resources>

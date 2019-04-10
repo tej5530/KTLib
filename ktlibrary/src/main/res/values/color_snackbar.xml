@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="SBColorSnackBarBtn">#FFFFFF</color>
+    <color name="SBGreenSnackbarBg">#8BC34A</color>
+    <color name="SBRedSnackbarBg">#F44336</color>
+    <color name="SBColorSnackBarText">#FFFFFF</color>
+</resources>

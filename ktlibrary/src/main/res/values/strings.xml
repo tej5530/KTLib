@@ -7,4 +7,45 @@
     <string name="invalid_master">Invalid Master Card</string>
     <string name="valid_cvv">InValid CVV</string>
     <string name="enter_cvv">Enter CVV</string>
+
+    <string name="PERMISSION_TITLE">Permission necessary</string>
+    <string name="call_Phone_msg">Phone Permission needed to make call!</string>
+    <string name="character_allow">characters allowed for</string>
+    <string name="character_alloww">characters allowed.</string>
+    <string name="character_required">characters required for</string>
+    <string name="character_requiredeterr">characters required.</string>
+    <string name="ddmmmyyyy">dd MMM,yyyy</string>
+    <string name="encrypt_decrypt_key">BEELINE</string>
+    <string name="facebook_app_id">771873936316088</string>
+    <string name="fb_login_protocol_scheme">fb771873936316088</string>
+    <string name="get_all_Api_URL">http://1.22.161.26:3131/servicemanagementupdated/service-action-android.php?action=GetProjectservice&amp;id=</string>
+    <string name="invalid_number">Invalid phone number</string>
+    <string name="max_text">Maximum</string>
+    <string name="message_NoDataAvailable">No data found.</string>
+    <string name="min_text">Minimum</string>
+    <string name="mmddyyyyy">MM/dd/yyyy</string>
+    <string name="msg_connection_time_out_message">Something went wrong Try after sometime.</string>
+    <string name="msg_no_data_description">Here we have nothing to found.</string>
+    <string name="msg_no_data_found">No data found</string>
+    <string name="msg_progress">Loading...</string>
+    <string name="msg_social_login_err_message">Failed, Please try again.</string>
+    <string name="msg_unexpected_error">Something went wrong please try again later.</string>
+    <string name="my_msg_progress_dialog">Loading…</string>
+    <string name="please_enter_prefix">Please enter</string>
+    <string name="please_select_prefix">Please select</string>
+    <string name="random_string">VOh0RTWmQlMkTO4=</string>
+    <string name="rta_dialog_cancel">Later</string>
+    <string name="rta_dialog_message">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="rta_dialog_no">No, thanks</string>
+    <string name="rta_dialog_ok">Rate now</string>
+    <string name="rta_dialog_title">Rate this app</string>
+    <string name="tiny_URL">http://tinyurl.com/api-create.php?url=</string>
+    <string name="txt_connection_time_out">Connection TimeOut</string>
+    <string name="txt_connection_time_out_message">Something went wrong Try after sometime.</string>
+    <string name="txt_no_network_header">No internet connection</string>
+    <string name="txt_no_network_message">Please make sure that you are \n connected to the internet</string>
+    <string name="txt_no_network_retry">Tap to refresh</string>
+    <string name="txt_social_login_err_message">Failed, Please try again.</string>
+    <string name="webservice_date_format">yyyy-MM-dd HH:mm:ss</string>
+    <string name="webservice_req_date_format">MM/dd/yyyy</string>
 </resources>
