@@ -11,9 +11,7 @@ import android.view.inputmethod.InputMethodManager;
 
 import java.lang.reflect.Field;
 
-/**
- * Created by munir on 23/5/17.
- */
+
 
 public class Utility {
 

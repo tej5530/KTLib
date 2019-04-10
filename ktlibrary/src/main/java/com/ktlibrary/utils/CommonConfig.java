@@ -18,9 +18,7 @@ import org.json.JSONObject;
 
 import java.util.Iterator;
 
-/**
- * Created by munir on 12/11/15.
- */
+
 public class CommonConfig {
 
 

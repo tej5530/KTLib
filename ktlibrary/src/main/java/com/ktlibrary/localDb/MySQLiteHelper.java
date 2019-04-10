@@ -7,9 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import com.ktlibrary.utils.Utility;
 
 
-/**
- * Created by munir on 25/5/17.
- */
+
 
 public class MySQLiteHelper extends SQLiteOpenHelper {
 
