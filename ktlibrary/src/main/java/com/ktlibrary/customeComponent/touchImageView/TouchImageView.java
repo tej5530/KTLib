@@ -1,4 +1,4 @@
-package com.ktlibrary.customeComponent;
+package com.ktlibrary.customeComponent.touchImageView;
 
 import android.annotation.TargetApi;
 import android.content.Context;
