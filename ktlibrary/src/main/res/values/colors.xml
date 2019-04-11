@@ -9,4 +9,25 @@
     <color name="colorGreen">#49C24F</color>
     <color name="colorDivider">#d8d8d6</color>
     <color name="colorWhiteOff">#c8ffffff</color>
+
+
+    <!-- General -->
+    <color name="selected_date_circle_color">#54B948</color>
+    <!-- Fonts -->
+    <color name="title_color">#000</color>
+    <color name="date_color">#000</color>
+    <color name="week_color">#000</color>
+
+    <!-- Calendar Date -->
+    <color name="default_date_color">#3b4144</color>
+    <color name="disable_date_color">#BDBDBD</color>
+    <color name="range_date_color">@color/default_date_color</color>
+    <color name="selected_date_color">#FFF</color>
+    <color name="range_bg_color">#B7C99D</color>
+    <color name="calendar_text">#474747</color>
+
+    <color name="calendar_header">@color/colorPrimary</color>
+    <color name="calendar_header_title">#FFF</color>
+    <color name="selected_date_circle_color_app">#FF5252</color>
+    <color name="range_bg_color_app">#FFCDD2</color>
 </resources>
