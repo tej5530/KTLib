@@ -1,9 +1,11 @@
 package com.ktlib;
 
 import android.Manifest;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -35,7 +37,10 @@ public class MainActivity extends RuntimePermissionsActivity {
                 , REQUEST_PERMISSIONS);
         etTesting = findViewById(R.id.etTesting);
         btnClick = findViewById(R.id.btnClick);
-        btnClick.setOnClickListener(view -> Validation.isValid().validate(MainActivity.this,etTesting,"Error"));
+//        btnClick.setOnClickListener(view -> Validation.isValid().validate(MainActivity.this,etTesting,"Error"));
+        btnClick.setOnClickListener(v -> {
+            startActivity(new Intent(this,DatabaseDemoActivity.class));
+        });
         SnackBarHandler.ShowSnackbar(this).show("Done", SnackBarHandler.SnackbarPosition.snackbarBottom);
         RetrofitClient.baseURL = "https://api.androidhive.info/";
         new ApiManager().ApiCalling(this, "contacts/", AppConfig.requestType.GET, null, null, new ApiManager.ApiSuccessInterface() {
