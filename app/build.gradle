@@ -33,6 +33,4 @@ dependencies {
     implementation project(':ktlibrary')
 
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
-
-
 }
